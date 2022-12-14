@@ -7,7 +7,7 @@ total = product_1 + product_2 + product_3 + product_4 + product_5
 
 z = open("Data-1.txt","w")
 
-if (product_1 > 0) and (product_2 > 0) and (product_3 > 0) and (product_4 > 0) and (product_5 > 0):
+if (product_1 >= 0) and (product_2 >= 0) and (product_3 >= 0) and (product_4 >= 0) and (product_5 >= 0):
     print("The sum of all numbers :",total)
     print("The sum of all numbers :",total,file=z)
 else:
